@@ -11,5 +11,5 @@ function retrieveEmployeeInformation()
 }
 function addNewElementAsLi()
 {
-  return document.querySelector('.employee-list').append("Jones");
+  return document.querySelector('.employee-list').append(retrieveEmployeeInformation()l);
 }
